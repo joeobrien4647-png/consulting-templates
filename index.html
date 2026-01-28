@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting Template Pack</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); min-height: 100vh; color: #fff; padding: 2rem; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .subtitle { color: #a0aec0; margin-bottom: 2rem; font-size: 1.1rem; }
+        .price { background: linear-gradient(135deg, #667eea, #764ba2); padding: 1rem 2rem; border-radius: 12px; display: inline-block; margin-bottom: 2rem; }
+        .price-amount { font-size: 2rem; font-weight: 700; }
+        .price-note { font-size: 0.9rem; opacity: 0.9; }
+        .templates { display: grid; gap: 1rem; }
+        .template-card { background: rgba(255,255,255,0.1); border-radius: 12px; padding: 1.5rem; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); transition: transform 0.2s, box-shadow 0.2s; }
+        .template-card:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        .template-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .template-name { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .template-desc { color: #a0aec0; font-size: 0.9rem; margin-bottom: 1rem; }
+        .template-link { color: #667eea; text-decoration: none; font-weight: 500; }
+        .template-link:hover { text-decoration: underline; }
+        .features { margin-top: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 12px; }
+        .features h3 { margin-bottom: 1rem; }
+        .features ul { list-style: none; }
+        .features li { padding: 0.5rem 0; padding-left: 1.5rem; position: relative; }
+        .features li::before { content: '✓'; position: absolute; left: 0; color: #48bb78; }
+        .cta { margin-top: 2rem; text-align: center; }
+        .btn { background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: transform 0.2s; }
+        .btn:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Consulting Template Pack</h1>
+        <p class="subtitle">5 battle-tested templates for transformation & strategy consulting</p>
+        
+        <div class="price">
+            <span class="price-amount">$39</span>
+            <span class="price-note"> for the complete bundle</span>
+        </div>
+
+        <div class="templates">
+            <div class="template-card">
+                <div class="template-icon">🏗️</div>
+                <div class="template-name">Operating Model Canvas</div>
+                <p class="template-desc">8-dimension framework for organizational design. Map capabilities, governance, processes, and technology.</p>
+                <a href="01-operating-model-canvas.md" class="template-link">View Template →</a>
+            </div>
+            
+            <div class="template-card">
+                <div class="template-icon">🗺️</div>
+                <div class="template-name">Transformation Roadmap</div>
+                <p class="template-desc">4-phase change roadmap with workstreams, milestones, dependencies, and success metrics.</p>
+                <a href="02-transformation-roadmap.md" class="template-link">View Template →</a>
+            </div>
+            
+            <div class="template-card">
+                <div class="template-icon">👥</div>
+                <div class="template-name">Stakeholder Map</div>
+                <p class="template-desc">Power/interest matrix with engagement planning, communication strategies, and risk tracking.</p>
+                <a href="03-stakeholder-map.md" class="template-link">View Template →</a>
+            </div>
+            
+            <div class="template-card">
+                <div class="template-icon">📊</div>
+                <div class="template-name">RACI Matrix</div>
+                <p class="template-desc">Role clarity framework with 4 domain-specific examples. Clear accountability for every decision.</p>
+                <a href="04-raci-matrix.md" class="template-link">View Template →</a>
+            </div>
+            
+            <div class="template-card">
+                <div class="template-icon">🎯</div>
+                <div class="template-name">Initiative Charter</div>
+                <p class="template-desc">Full project charter with 12 sections: objectives, scope, RACI, risks, benefits, timeline, and more.</p>
+                <a href="05-initiative-charter.md" class="template-link">View Template →</a>
+            </div>
+        </div>
+
+        <div class="features">
+            <h3>What's Included</h3>
+            <ul>
+                <li>Ready-to-use templates with real examples</li>
+                <li>Step-by-step instructions for each framework</li>
+                <li>Validation checklists to ensure quality</li>
+                <li>Visual diagrams and structure guides</li>
+                <li>Export to Notion, Word, or keep as Markdown</li>
+            </ul>
+        </div>
+
+        <div class="cta">
+            <a href="https://gumroad.com" class="btn">Buy Now — $39</a>
+        </div>
+    </div>
+</body>
+</html>
